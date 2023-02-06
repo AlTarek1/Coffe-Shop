@@ -1,0 +1,140 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "price": 20,
+      "img": "./assets/product1.jpg",
+      "name": "Espresso"
+    },
+    {
+      "id": 2,
+      "price": 20,
+      "img": "./assets/product2.jpg",
+      "name": "Americano"
+    },
+    { "id": 3, "price": 20, "img": "./assets/product3.jpg", "name": "Doppio" },
+    {
+      "id": 4,
+      "price": 20,
+      "img": "./assets/product4.jpg",
+      "name": "Espresso Lungo"
+    },
+    {
+      "id": 5,
+      "price": 20,
+      "img": "./assets/product5.jpg",
+      "name": "Ristretto"
+    },
+    { "id": 6, "price": 20, "img": "./assets/product6.jpg", "name": "Cortado" },
+    { "id": 7, "price": 20, "img": "./assets/product7.jpg", "name": "Latte" },
+    {
+      "id": 8,
+      "price": 20,
+      "img": "./assets/product8.jpg",
+      "name": "Cafe Au Lait"
+    },
+    {
+      "id": 9,
+      "price": 20,
+      "img": "./assets/product9.jpg",
+      "name": "Cappuccino"
+    },
+    {
+      "id": 10,
+      "price": 20,
+      "img": "./assets/product10.jpg",
+      "name": "Flat White    "
+    },
+    {
+      "id": 11,
+      "price": 20,
+      "img": "./assets/product11.jpg",
+      "name": "Macchiato"
+    },
+    {
+      "id": 12,
+      "price": 20,
+      "img": "./assets/product12.jpg",
+      "name": "Espresso Con Panna    "
+    },
+    {
+      "id": 13,
+      "price": 20,
+      "img": "./assets/product13.jpg",
+      "name": "Iced Coffee    "
+    },
+    {
+      "id": 14,
+      "price": 20,
+      "img": "./assets/product14.jpg",
+      "name": "Cold Brew Coffee    "
+    },
+    {
+      "id": 15,
+      "price": 20,
+      "img": "./assets/product15.jpg",
+      "name": "Frappe"
+    },
+    {
+      "id": 16,
+      "price": 20,
+      "img": "./assets/product16.jpg",
+      "name": "Frappuccino"
+    },
+    {
+      "id": 17,
+      "price": 20,
+      "img": "./assets/product17.jpg",
+      "name": "Drip Coffee    "
+    },
+    {
+      "id": 18,
+      "price": 20,
+      "img": "./assets/product18.jpg",
+      "name": "Turkish Coffee    "
+    },
+    {
+      "id": 19,
+      "price": 20,
+      "img": "./assets/product19.jpg",
+      "name": "French Press     "
+    },
+    {
+      "id": 20,
+      "price": 20,
+      "img": "./assets/product20.jpg",
+      "name": "Pour Over    "
+    },
+    {
+      "id": 21,
+      "price": 20,
+      "img": "./assets/product21.jpg",
+      "name": "Moka Pot    "
+    },
+    {
+      "id": 22,
+      "price": 20,
+      "img": "./assets/product22.jpg",
+      "name": "Percolator"
+    },
+    { "id": 23, "price": 20, "img": "./assets/product23.jpg", "name": "Mocha" },
+    {
+      "id": 24,
+      "price": 20,
+      "img": "./assets/product24.jpg",
+      "name": "Affogato"
+    },
+    {
+      "id": 25,
+      "price": 20,
+      "img": "./assets/product25.jpg",
+      "name": "Irish Coffee    "
+    },
+    {
+      "id": 26,
+      "price": 20,
+      "img": "./assets/product26.jpg",
+      "name": "Caffe Correcto    "
+    }
+  ]
+}

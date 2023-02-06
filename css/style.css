@@ -282,11 +282,13 @@
   box-shadow: var(--box-shadow-bg);
 }
 .products .product .image {
-  height: 70%;
+  width: 100%;
+  height: 250px;
 }
 .products .product .image img {
-  object-fit: cover;
+  width: 100%;
   height: 100%;
+  object-fit: cover;
   border-top-left-radius: 17px;
   border-top-right-radius: 17px;
 }
@@ -324,6 +326,31 @@
   color: var(--MAIN-COLOR);
   box-shadow: var(--box-shadow);
 }
+.products-section .pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+.products-section .pagination ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+.products-section .pagination button {
+  background-color: white;
+  color: var(--MAIN-COLOR);
+  border-radius: 11px;
+  padding: 0 0.5rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: all var(--MAIN-TRANSITION);
+}
+.products-section .pagination button.active {
+  background-color: black;
+}
 /* <!-- ==============End Products==============  --> */
 /* <!-- ==============Start Gallery==============  --> */
 .gallery {
@@ -360,3 +387,60 @@
   transform: scale(1.09) rotate(3deg);
 }
 /* <!-- ==============End Gallery==============  --> */
+/* <!-- ==============Start Blogs==============  --> */
+.blogs {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+.blogs h1 {
+  font-size: 2.5rem;
+}
+.blogs .blog-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}
+.blog-container .blog {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 17px;
+  transition: all var(--MAIN-TRANSITION);
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.blog-container .blog:hover {
+  box-shadow: var(--box-shadow);
+}
+.blog-container .blog img {
+  border-top-left-radius: 17px;
+  border-top-right-radius: 17px;
+}
+.blog-container .blog h4 {
+  font-size: 1rem;
+}
+.blog-container .blog h5 {
+  font-size: 0.75rem;
+  color: var(--MAIN-COLOR);
+}
+.blog-container .blog p {
+  font-size: 0.75rem;
+}
+.blog-container .blog button {
+  font-size: 1.25rem;
+  background-color: var(--MAIN-COLOR);
+  color: #fff;
+  width: fit-content;
+  padding: 0.25rem;
+  border-radius: 11px;
+  cursor: pointer;
+}
+/* <!-- ==============End Blogs==============  --> */
+/* <!-- ==============Start Footer==============  --> */
+footer {
+  text-align: center;
+  margin-top: 1.5rem;
+  background-color: white;
+  padding: 1rem 0 0.5rem;
+}
+/* <!-- ==============End Footer==============  --> */
