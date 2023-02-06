@@ -1,0 +1,257 @@
+/*
+--- 01 TYPOGRAPHY SYSTEM
+
+- Font sizes (px)
+ 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+.25rem = 4px, .5rem = 8px, .75rem = 12px , 1rem = 16px , 1.25rem = 20px , 1.5rem = 24px , 1.75rem= 28px , 2rem = 32px
+
+
+
+- Font weights
+Default: 400
+Medium : 500
+Semi-Bold : 600
+Bolld : 700
+
+- Line heights
+Default: 1
+1.05
+1.06
+1.2
+1.6
+
+- Letter spacing 
+ -0.5px
+ 0.75
+
+--- 02 COLORS
+- Primary: 
+#EEF1F6
+#0E1133
+#ff3e66
+- Tints:
+- Shades: 
+- Accents:
+- Greys
+
+#eee
+#888
+#777
+#767676   lightest grey allowed on #fff
+#6f6f6f   lightest grey allowed on #fdf2e9 
+#555
+#333
+
+--- 05 SHADOWS
+
+box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+
+--- 06 BORDER-RADIUS
+9px 
+11px
+
+--- 07 WHITESPACE
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+.25rem = 4px, .5rem = 8px, .75rem = 12px , 1rem = 16px , 1.25rem = 20px , 1.5rem = 24px , 1.75rem= 28px , 2rem = 32px
+  */
+
+/* Start Variables */
+:root {
+  /*========== Colors ==========*/
+  --MAIN-COLOR: #b8916b;
+  --MAIN-COLOR-ALT: #9e714e;
+  --MAIN-TRANSITION: 0.3s;
+  --MAIN-PADDING-TOP: 2rem;
+  --MAIN-PADDING-BOTTOM: 2rem;
+  --BACKGROUND-COLOR: #fbf5e6;
+
+  /*========== Font and typography ==========*/
+  /* .25rem = 4px, .5rem = 8px, .75rem = 12px , 1rem = 16px , 1.25rem = 20px , 1.5rem = 24px , 1.75rem= 28px , 2rem = 32px */
+  --big-font-size: 2rem;
+  --h1-font-size: 1.5rem;
+  --h2-font-size: 1.25rem;
+  --h3-font-size: 1.125rem;
+  --normal-font-size: 0.938rem;
+  --small-font-size: 0.813rem;
+  --smaller-font-size: 0.75rem;
+
+  /*========== Font weight ==========*/
+  --font-sm: 400;
+  --font-medium: 500;
+  --font-semi-bold: 600;
+  --font-bold: 700;
+
+  /*========== Border Radius ==========*/
+  --card-border-radius: 2rem;
+  --border-radius-1: 0.4rem;
+  --border-radius-2: 0.8rem;
+  --border-radius-3: 1.2rem;
+
+  --card-padding: 1.8rem;
+  --padding-1: 1.2rem;
+
+  /*========== Box Shadow ==========*/
+  --box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.075);
+  --box-shadow-bg: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  /*========== Margenes Bottom ==========*/
+  /* .25rem = 4px, .5rem = 8px, .75rem = 12px , 1rem = 16px , 1.25rem = 20px , 1.5rem = 24px , 1.75rem= 28px , 2rem = 32px ... */
+  --mb-0-25: 0.25rem;
+  --mb-0-5: 0.5rem;
+  --mb-0-75: 0.75rem;
+  --mb-1: 1rem;
+  --mb-1-5: 1.5rem;
+  --mb-2: 2rem;
+  --mb-2-5: 2.5rem;
+  --mb-3: 3rem;
+}
+/* End Variables */
+/* Font size for large devices */
+@media screen and (min-width: 968px) {
+  :root {
+    --big-font-size: 3rem;
+    --h1-font-size: 2.25rem;
+    --h2-font-size: 1.5rem;
+    --h3-font-size: 1.25rem;
+    --normal-font-size: 1rem;
+    --small-font-size: 0.875rem;
+    --smaller-font-size: 0.813rem;
+  }
+}
+
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Kalam", cursive;
+  /* font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; */
+  line-height: 1;
+  font-weight: 400;
+  overflow-x: hidden;
+  color: #000000;
+  background-color: var(--MAIN-COLOR);
+}
+
+*:focus {
+  outline: none;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+button,
+input {
+  font-family: inherit;
+  font-size: 1.8rem;
+  outline: 0;
+  border: none;
+  background-color: transparent;
+}
+h1 {
+  font-weight: 800;
+  font-size: 1.8rem;
+}
+h2 {
+  font-size: 1.4rem;
+}
+h3 {
+  font-size: 0.87rem;
+}
+h4 {
+  font-size: 0.8rem;
+}
+h5 {
+  font-size: 0.77rem;
+}
+small {
+  font-size: 0.75rem;
+}
+
+/***************************************/
+/* ~~~ General Reusable Components ~~~ */
+/***************************************/
+.container {
+  max-width: 1000px;
+  padding: 0 1.5rem;
+  margin: 0 auto;
+}
+.btn,
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 0.25rem 0.5rem;
+  border-radius: 9px;
+
+  color: var(--MAIN-COLOR);
+  background-color: #fff;
+  /* Only necessary for .btn */
+  border: none;
+  cursor: pointer;
+
+  transition: all 0.3s;
+}
+.btn--full:link,
+.btn--full:visited {
+  background-color: #e67e22;
+  color: #fff;
+}
+
+.btn--full:hover,
+.btn--full:active {
+  background-color: #cf711f;
+}
+
+.btn--outline:link,
+.btn--outline:visited {
+  background-color: #fff;
+  color: #555;
+}
+
+.btn--outline:hover,
+.btn--outline:active {
+  background-color: #fdf2e9;
+
+  /* border: 3px solid #fff; */
+
+  /* Trick to add border inside */
+  box-shadow: inset 0 0 0 3px #fff;
+}
+/***************************/
+/* Helper/Setting Classes */
+/***************************/
+.margin-right-sm {
+  margin-right: 1.6rem !important;
+}
+
+.margin-bottom-md {
+  margin-bottom: 4.8rem !important;
+}
+
+.center-text {
+  text-align: center;
+}
+
+strong {
+  font-weight: 500;
+}
