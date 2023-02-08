@@ -35,10 +35,33 @@
           <li><a href="#">Contact</a></li>
         </ul>
         <div class="cart">
-          <span class="cart-cnt">0</span>
-          <span class="material-symbols-outlined cart-icon">
-            shopping_cart
-          </span>
+          <div class="cart-menu">
+            <span class="cart-cnt">0</span>
+            <span class="material-symbols-outlined cart-icon">
+              shopping_cart
+            </span>
+          </div>
+          <div class="cart-page">
+            <div class="cart-wrapper"></div>
+
+            <div class="cart-container">
+              <span class="material-symbols-outlined closeCART"> close </span>
+
+              <div class="cart-header">
+                <h1>Your Cart</h1>
+              </div>
+              <div class="cart-products"></div>
+              <div class="cart-footer">
+                <h2>
+                  Total: $
+                  <span class="total">100</span>
+                </h2>
+                <button class="checkout">
+                  Checkout <span class="material-symbols-outlined"> paid </span>
+                </button>
+              </div>
+            </div>
+          </div>
         </div>
       </nav>
     </header>
@@ -57,8 +80,8 @@
         <img src="./assets/slider5.jpg" alt="slider5" />
       </div>
       <div class="slider-controls">
-        <span class="material-symbols-outlined"> arrow_back_ios </span>
-        <span class="material-symbols-outlined"> arrow_forward_ios </span>
+        <span class="back material-symbols-outlined"> arrow_back_ios </span>
+        <span class="next material-symbols-outlined"> arrow_forward_ios </span>
       </div>
     </section>
     <!-- ==============End Slider==============  -->
@@ -122,14 +145,14 @@
     <section class="products-section container">
       <h1>Our Proudcts</h1>
       <div class="filter-list">
-        <ul>
+        <ul class="filter">
           <li class="active">Latest</li>
           <li>Lowest</li>
           <li>Highest</li>
-          <li>Special</li>
         </ul>
         <div class="search">
-          <span class="material-symbols-outlined"> search </span>
+          <input type="text" class="search-input widthz" />
+          <span class="material-symbols-outlined search-icon"> search </span>
         </div>
       </div>
       <div class="products">
@@ -151,15 +174,7 @@
       </div>
       <div class="pagination">
         <button class="btn-pervios">Pervios</button>
-        <div class="pages">
-          <ul>
-            <li><button class="btn-next active">1</button></li>
-            <li><button class="btn-next">2</button></li>
-            <li><button class="btn-next">3</button></li>
-            <li><button class="btn-next">4</button></li>
-            <li><button class="btn-next">5</button></li>
-          </ul>
-        </div>
+        <div class="pages"></div>
         <button class="btn-next">Next</button>
       </div>
     </section>

@@ -2,7 +2,7 @@
   "products": [
     {
       "id": 1,
-      "price": 20,
+      "price": 10,
       "img": "./assets/product1.jpg",
       "name": "Espresso"
     },
@@ -15,7 +15,7 @@
     { "id": 3, "price": 20, "img": "./assets/product3.jpg", "name": "Doppio" },
     {
       "id": 4,
-      "price": 20,
+      "price": 15,
       "img": "./assets/product4.jpg",
       "name": "Espresso Lungo"
     },
@@ -29,13 +29,13 @@
     { "id": 7, "price": 20, "img": "./assets/product7.jpg", "name": "Latte" },
     {
       "id": 8,
-      "price": 20,
+      "price": 17,
       "img": "./assets/product8.jpg",
       "name": "Cafe Au Lait"
     },
     {
       "id": 9,
-      "price": 20,
+      "price": 11,
       "img": "./assets/product9.jpg",
       "name": "Cappuccino"
     },
@@ -71,7 +71,7 @@
     },
     {
       "id": 15,
-      "price": 20,
+      "price": 10,
       "img": "./assets/product15.jpg",
       "name": "Frappe"
     },
@@ -83,7 +83,7 @@
     },
     {
       "id": 17,
-      "price": 20,
+      "price": 16,
       "img": "./assets/product17.jpg",
       "name": "Drip Coffee    "
     },
@@ -95,7 +95,7 @@
     },
     {
       "id": 19,
-      "price": 20,
+      "price": 26,
       "img": "./assets/product19.jpg",
       "name": "French Press     "
     },
@@ -107,7 +107,7 @@
     },
     {
       "id": 21,
-      "price": 20,
+      "price": 19,
       "img": "./assets/product21.jpg",
       "name": "Moka Pot    "
     },
@@ -120,19 +120,19 @@
     { "id": 23, "price": 20, "img": "./assets/product23.jpg", "name": "Mocha" },
     {
       "id": 24,
-      "price": 20,
+      "price": 21,
       "img": "./assets/product24.jpg",
       "name": "Affogato"
     },
     {
       "id": 25,
-      "price": 20,
+      "price": 18,
       "img": "./assets/product25.jpg",
       "name": "Irish Coffee    "
     },
     {
       "id": 26,
-      "price": 20,
+      "price": 22,
       "img": "./assets/product26.jpg",
       "name": "Caffe Correcto    "
     }
