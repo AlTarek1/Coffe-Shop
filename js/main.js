@@ -181,7 +181,7 @@ filterList.forEach((filter) => {
     } else {
       FilteredProducts = products.slice().sort((a, b) => b.price - a.price);
     }
-    FilteredProducts = products.filter((item) =>
+    FilteredProducts = FilteredProducts.filter((item) =>
       item.name.toLowerCase().includes(inputSearch.value.toLowerCase())
     );
     // console.log(inputSearch.value);
